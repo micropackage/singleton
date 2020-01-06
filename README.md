@@ -32,8 +32,8 @@ Micropackages are maintained by [BracketSpace](https://bracketspace.com).
 
 ## 📖 Changelog
 
-[See the changelog file](./CHANGELOG.md)
+[See the changelog file](./CHANGELOG.md).
 
 ## 📃 License
 
-GPL v3.0 or later. See the [LICENSE](./LICENSE) file for more information.
+GNU General Public License (GPL) v3.0. See the [LICENSE](./LICENSE) file for more information.
