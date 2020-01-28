@@ -15,7 +15,7 @@ composer require micropackage/singleton
 ## 🕹 Usage
 
 ```php
-use Micropackage\Singleton;
+use Micropackage\Singleton\Singleton;
 
 class Example extends Singleton {}
 
