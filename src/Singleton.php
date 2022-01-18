@@ -48,7 +48,7 @@ class Singleton {
 	 * Gets the instance
 	 *
 	 * @since  1.0.0
-	 * @return Singleton
+	 * @return static
 	 */
 	public static function get() {
 		$class = get_called_class();
