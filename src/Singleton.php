@@ -48,13 +48,14 @@ class Singleton {
 	 * Gets the instance
 	 *
 	 * @since  1.0.0
-	 * @return Singleton
+	 * @return static
 	 */
 	public static function get() {
 		$class = get_called_class();
+		$args  = func_get_args();
 
 		if ( ! isset( self::$instances[ $class ] ) ) {
-			self::$instances[ $class ] = new static();
+			self::$instances[ $class ] = new static( ...$args );
 		}
 
 		return self::$instances[ $class ];

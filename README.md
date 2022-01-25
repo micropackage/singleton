@@ -6,6 +6,10 @@
 [![Total Downloads](https://poser.pugx.org/micropackage/singleton/downloads)](https://packagist.org/packages/micropackage/singleton)
 [![License](https://poser.pugx.org/micropackage/singleton/license)](https://packagist.org/packages/micropackage/singleton)
 
+<p align="center">
+    <img src="https://bracketspace.com/extras/micropackage/micropackage-small.png" alt="Micropackage logo"/>
+</p>
+
 ## 💾 Installation
 
 ``` bash
@@ -15,7 +19,7 @@ composer require micropackage/singleton
 ## 🕹 Usage
 
 ```php
-use Micropackage\Singleton;
+use Micropackage\Singleton\Singleton;
 
 class Example extends Singleton {}
 
