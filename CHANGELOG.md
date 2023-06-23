@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.2
+
+### Changed:
+- License from GPL to MIT
+
 ## 1.1.1
 
 Fixed return comment so class can be properly analysed by PHPStan
